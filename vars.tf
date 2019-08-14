@@ -7,10 +7,10 @@ variable "sample_var" {
 
 variable "sleepy_time" {
   description = "How long our local-exec will take a nap."
-  default     = 48
+  default     = 548
 }
 
 variable "wakeup_time" {
   description = "How long our local-exec will be awake."
-  default     = 50
+  default     = 48
 }
