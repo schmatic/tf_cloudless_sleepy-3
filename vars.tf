@@ -12,5 +12,5 @@ variable "sleepy_time" {
 
 variable "wakeup_time" {
   description = "How long our local-exec will be awake."
-  default     = 48
+  default     = 50
 }
