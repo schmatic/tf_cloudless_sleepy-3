@@ -2,12 +2,12 @@
 
 variable "sample_var" {
   description = "A sample_var to pass to the template."
-  default     = "ajreddy"
+  default     = "jana"
 }
 
 variable "sleepy_time" {
   description = "How long our local-exec will take a nap."
-  default     = 548
+  default     = 48
 }
 
 variable "wakeup_time" {
