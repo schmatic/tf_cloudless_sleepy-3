@@ -8,6 +8,7 @@ variable "sample_var" {
 variable "sleepy_time" {
   description = "How long our local-exec will take a nap."
   default     = 548
+  env_var     = true
 }
 
 variable cloud_engineer_access {
