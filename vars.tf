@@ -2,13 +2,13 @@
 
 variable "sample_var" {
   description = "A sample_var to pass to the template."
-  default     = "janardhanreddy"
+  default     = "janardhanreddy" 
+  env_var     = true
 }
 
 variable "sleepy_time" {
   description = "How long our local-exec will take a nap."
   default     = 548
-  env_var     = "true"
 }
 
 variable cloud_engineer_access {
