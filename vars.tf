@@ -3,7 +3,6 @@
 variable "sample_var" {
   description = "A sample_var to pass to the template."
   default     = "janardhanreddy" 
-  env_var     = true
 }
 
 variable "sleepy_time" {
