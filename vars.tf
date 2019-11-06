@@ -10,3 +10,8 @@ variable "sleepy_time" {
   default     = 0
 }
 
+variable "sleepy_time2" {
+  description = "How long our local-exec will take a nap."
+  default     = 2
+}
+
